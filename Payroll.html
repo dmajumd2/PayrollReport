@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+<head>
+<!--Kshitij Dutta-->
+	<meta charset="UTF-8">
+	<title> Payroll Processing </title>
+	<style>
+	body{background-color:red}
+	</style>
+</head>
+
+<div id="hide">
+<body>
+<h1> Payroll Processing </h1>
+<h2> Report Generator </h2>
+<hr>
+
+Department: <input type="text" id="deptName" name="firstname" value="">
+<hr>
+	<table id = 'employees'>
+  <th cellspacing="10">
+    <td>ID</td>
+    <td>Hours Worked</td> 
+    <td>Hourly Salary</td>
+  </th>
+  <tr>
+    <td>Employee 1: </td>
+    <td><input type="text" id="emp1Id" name="firstname" value=""></td>
+    <td><input type="text" id="emp1hr" name="firstname" value=""></td>
+    <td><input type="text" id="emp1sal" name="firstname" value=""></td>
+  </tr>
+  <tr>
+  	 <td>Employee 2: </td>
+    <td><input type="text" id="emp2Id" name="firstname" value=""></td>
+    <td><input type="text" id="emp2hr" name="firstname" value=""></td>
+    <td><input type="text" id="emp2sal" name="firstname" value=""></td>
+  </tr>
+  <tr>
+  	 <td>Employee 3: </td>
+	<td><input type="text" id="emp3Id" name="firstname" value=""></td>
+    <td><input type="text" id="emp3hr" name="firstname" value=""></td>
+    <td><input type="text" id="emp3sal" name="firstname" value=""></td>
+  </tr>
+</table>
+
+  <button onclick="myFunction()">Process</button>
+  
+  <button type="button" onclick="reset()">Clear</button>
+  <script src="script.js"></script>
+</body>
+</div>
+
+
+</html>
